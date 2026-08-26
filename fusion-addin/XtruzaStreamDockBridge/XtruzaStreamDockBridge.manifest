@@ -1,0 +1,14 @@
+{
+  "autodeskProduct": "Fusion",
+  "type": "addin",
+  "id": "6f8b9945-4f60-4f96-98f9-b3985de384e6",
+  "author": "Xtruza",
+  "description": {
+    "": "Secure localhost bridge between StreamDock and Autodesk Fusion.",
+    "it": "Bridge locale sicuro tra StreamDock e Autodesk Fusion."
+  },
+  "version": "0.1.0",
+  "runOnStartup": true,
+  "supportedOS": "windows|mac",
+  "editEnabled": true
+}
