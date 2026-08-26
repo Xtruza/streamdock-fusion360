@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/assets/banner.svg" alt="Xtruza StreamDock for Fusion" width="100%"></p>
+<p align="center"><img src="docs/assets/banner.png" alt="Xtruza StreamDock for Fusion" width="100%"></p>
 
 <p align="center"><strong>Configurable Autodesk Fusion controls for StreamDock on macOS and Windows.</strong><br><a href="docs/README.it.md">Italiano</a> · English</p>
 
