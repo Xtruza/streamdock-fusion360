@@ -1,0 +1,9 @@
+node_modules/
+build/
+build-keepalive/
+log/
+dist/
+*.zip
+__pycache__/
+*.pyc
+.DS_Store
