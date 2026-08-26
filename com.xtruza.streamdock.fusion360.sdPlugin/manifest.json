@@ -1,0 +1,59 @@
+{
+  "SDKVersion": 1,
+  "Author": "Xtruza",
+  "Name": "Fusion 360 Controls",
+  "Description": "Configurable Autodesk Fusion commands for StreamDock.",
+  "Category": "Xtruza · Fusion 360",
+  "Icon": "static/app-icon.svg",
+  "CategoryIcon": "static/category-icon.svg",
+  "URL": "https://github.com/Xtruza/streamdock-fusion360",
+  "Version": "0.1.0",
+  "CodePathWin": "plugin/index.js",
+  "CodePathMac": "plugin/index.js",
+  "OS": [
+    { "Platform": "windows", "MinimumVersion": "10" },
+    { "Platform": "mac", "MinimumVersion": "10.15" }
+  ],
+  "Software": { "MinimumVersion": "3.10.191.0421" },
+  "Nodejs": { "Version": "20" },
+  "ApplicationsToMonitor": {
+    "windows": ["Fusion360.exe", "Autodesk Fusion.exe"],
+    "mac": ["com.autodesk.mas.fusion360", "com.autodesk.fusion360"]
+  },
+  "Actions": [
+    {
+      "UUID": "com.xtruza.streamdock.fusion360.command",
+      "Name": "Fusion Command",
+      "Tooltip": "Run a configurable Fusion command",
+      "Icon": "static/action-command.svg",
+      "PropertyInspectorPath": "propertyInspector/command/index.html",
+      "Controllers": ["Keypad"],
+      "DisableAutomaticStates": true,
+      "UserTitleEnabled": false,
+      "SupportedInMultiActions": true,
+      "Settings": {
+        "preset": "extrude",
+        "mode": "auto",
+        "commandId": "FusionExtrudeCommand",
+        "shortcut": "E",
+        "requireFusionFrontmost": true
+      },
+      "States": [
+        { "Image": "static/action-command.svg", "ShowTitle": false }
+      ]
+    },
+    {
+      "UUID": "com.xtruza.streamdock.fusion360.bridge",
+      "Name": "Bridge Status",
+      "Tooltip": "Check the optional Fusion API bridge",
+      "Icon": "static/action-bridge.svg",
+      "Controllers": ["Keypad"],
+      "DisableAutomaticStates": true,
+      "UserTitleEnabled": false,
+      "SupportedInMultiActions": false,
+      "States": [
+        { "Image": "static/action-bridge.svg", "ShowTitle": false }
+      ]
+    }
+  ]
+}

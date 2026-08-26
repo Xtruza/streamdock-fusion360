@@ -1,0 +1,8 @@
+{
+  "Name": "Controlli Fusion 360",
+  "Description": "Comandi Autodesk Fusion configurabili per StreamDock",
+  "Category": "Xtruza · Fusion 360",
+  "com.xtruza.streamdock.fusion360.command": { "Name": "Comando Fusion", "Tooltip": "Esegue un comando Fusion configurabile" },
+  "com.xtruza.streamdock.fusion360.bridge": { "Name": "Stato bridge", "Tooltip": "Controlla il bridge API opzionale per Fusion" },
+  "Localization": {}
+}
