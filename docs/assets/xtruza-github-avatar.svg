@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">Xtruza GitHub profile avatar</title>
+  <desc id="desc">Official Xtruza X mark centered on a black square with a restrained technical grid.</desc>
+  <defs>
+    <pattern id="grid" width="128" height="128" patternUnits="userSpaceOnUse">
+      <path d="M128 0H0v128" fill="none" stroke="#ffffff" stroke-opacity=".035" stroke-width="3"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="47%" r="55%">
+      <stop stop-color="#ffd400" stop-opacity=".15"/>
+      <stop offset=".7" stop-color="#ffd400" stop-opacity=".025"/>
+      <stop offset="1" stop-color="#ffd400" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="2048" height="2048" fill="#080808"/>
+  <rect width="2048" height="2048" fill="url(#grid)"/>
+  <circle cx="1024" cy="1000" r="860" fill="url(#glow)"/>
+  <circle cx="1024" cy="1024" r="818" fill="none" stroke="#ffd400" stroke-opacity=".18" stroke-width="5"/>
+  <circle cx="1024" cy="1024" r="736" fill="#080808" stroke="#ffffff" stroke-opacity=".07" stroke-width="4"/>
+  <g transform="translate(484 484) scale(8.5714286)">
+    <path d="M7 19h18l24 22h30l9-8h15L78 60H48z" fill="#ffd400"/>
+    <path d="M48 66h30l43 41h-20L77 85H48l-9 8H24z" fill="#ffffff"/>
+  </g>
+</svg>

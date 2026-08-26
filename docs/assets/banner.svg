@@ -1,1 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc"><title id="title">Xtruza StreamDock for Fusion</title><desc id="desc">Black and yellow technical grid banner</desc><defs><pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0v48" fill="none" stroke="#fff" stroke-opacity=".055"/></pattern><radialGradient id="glow"><stop stop-color="#ffd400" stop-opacity=".18"/><stop offset="1" stop-color="#ffd400" stop-opacity="0"/></radialGradient></defs><rect width="1280" height="420" fill="#080808"/><rect width="1280" height="420" fill="url(#grid)"/><circle cx="1010" cy="210" r="260" fill="url(#glow)"/><path d="M78 72h91l62 67h-62L78 72zm91 67h115l-57 59h-67l-51-56h60zm115 0h61l-53 56h-59l51-56z" fill="#ffd400"/><text x="78" y="287" font-family="Arial,Helvetica,sans-serif" font-size="57" font-weight="900" letter-spacing="-2" fill="#fff">STREAMDOCK × FUSION</text><text x="82" y="333" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="5" fill="#ffd400">CONFIGURE · MODEL · CREATE</text><g transform="translate(925 78)"><rect width="236" height="236" rx="28" fill="#111" stroke="#ffd400" stroke-width="3"/><path d="M38 38h55M38 38v55M198 198h-55M198 198v-55" stroke="#ffd400" stroke-width="7" fill="none"/><circle cx="118" cy="111" r="53" fill="#080808" stroke="#fff" stroke-width="3"/><text x="118" y="127" text-anchor="middle" font-family="Arial" font-size="44" font-weight="900" fill="#ffd400">EX</text><text x="118" y="192" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" letter-spacing="2" fill="#a4a49d">AUTO</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Xtruza StreamDock Fusion 360 plugin</title>
+  <desc id="desc">Xtruza black and yellow technical banner with three original command-key illustrations.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" fill="none" stroke="#ffffff" stroke-opacity=".045"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#080808"/>
+      <stop offset=".72" stop-color="#10100e"/>
+      <stop offset="1" stop-color="#171609"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="420" fill="url(#fade)"/>
+  <rect width="1280" height="420" fill="url(#grid)"/>
+  <rect width="1280" height="8" fill="#ffd400"/>
+  <path d="M748 8h532v412H627z" fill="#ffd400" opacity=".035"/>
+
+  <text x="64" y="235" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="52" font-weight="900" letter-spacing="-.5">FUSION 360 CONTROLS</text>
+  <text x="68" y="277" fill="#ffd400" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="4">STREAMDOCK PLUGIN · CONFIGURABLE BY XTRUZA</text>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2">
+    <rect x="64" y="323" width="128" height="38" rx="19" fill="#ffd400"/>
+    <text x="128" y="347" text-anchor="middle" fill="#080808">SKETCH</text>
+    <rect x="204" y="323" width="128" height="38" rx="19" fill="none" stroke="#ffffff" stroke-opacity=".32"/>
+    <text x="268" y="347" text-anchor="middle" fill="#ffffff">CREATE</text>
+    <rect x="344" y="323" width="128" height="38" rx="19" fill="none" stroke="#ffffff" stroke-opacity=".32"/>
+    <text x="408" y="347" text-anchor="middle" fill="#ffffff">MODIFY</text>
+  </g>
+
+  <g transform="translate(790 82)">
+    <g transform="translate(0 30)">
+      <rect width="128" height="128" rx="22" fill="#101010" stroke="#4a4a45" stroke-width="2"/>
+      <circle cx="64" cy="59" r="30" fill="none" stroke="#ffd400" stroke-width="5"/>
+      <path d="M36 59h56M64 31v56" stroke="#ffd400" stroke-width="5" stroke-linecap="round"/>
+      <text x="64" y="112" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.5">SKETCH</text>
+    </g>
+    <g transform="translate(145 0)">
+      <rect width="146" height="146" rx="25" fill="#ffd400"/>
+      <path d="M45 91V55l28-16 28 16v36L73 107 45 91zm0-36 28 17 28-17M73 72v35" fill="none" stroke="#080808" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M73 29v23m-10-10 10 10 10-10" fill="none" stroke="#080808" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="73" y="130" text-anchor="middle" fill="#080808" font-family="Arial" font-size="11" font-weight="900" letter-spacing="1.5">EXTRUDE</text>
+    </g>
+    <g transform="translate(308 30)">
+      <rect width="128" height="128" rx="22" fill="#101010" stroke="#4a4a45" stroke-width="2"/>
+      <path d="M37 43h54v31H37zM48 74v18h54V61H91" fill="none" stroke="#ffd400" stroke-width="5" stroke-linejoin="round"/>
+      <text x="64" y="112" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.5">MODIFY</text>
+    </g>
+  </g>
+  <text x="1008" y="332" text-anchor="middle" fill="#8f8f88" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.5">MACOS · WINDOWS · 20 PRESETS</text>
+</svg>

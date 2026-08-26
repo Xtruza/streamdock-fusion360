@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Xtruza StreamDock Fusion 360</title>
+  <desc id="desc">Repository social preview in the Xtruza black, white and yellow identity.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#ffffff" stroke-opacity=".04"/>
+    </pattern>
+    <radialGradient id="glow" cx="80%" cy="46%" r="52%">
+      <stop stop-color="#ffd400" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#ffd400" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="640" fill="#080808"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+  <rect width="1280" height="10" fill="#ffd400"/>
+  <text x="72" y="286" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="75" font-weight="900" letter-spacing="-1">STREAMDOCK</text>
+  <text x="72" y="367" fill="#ffd400" font-family="Arial,Helvetica,sans-serif" font-size="75" font-weight="900" letter-spacing="-1">FUSION 360</text>
+  <text x="77" y="420" fill="#b3b3ad" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="3.4">CONFIGURABLE CONTROLS · API BRIDGE · SHORTCUTS</text>
+  <g transform="translate(76 485)" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2">
+    <rect width="154" height="42" rx="21" fill="#ffd400"/>
+    <text x="77" y="27" text-anchor="middle" fill="#080808">20 PRESETS</text>
+    <rect x="169" width="166" height="42" rx="21" fill="none" stroke="#ffffff" stroke-opacity=".30"/>
+    <text x="252" y="27" text-anchor="middle" fill="#ffffff">MAC + WIN</text>
+  </g>
+  <g transform="translate(825 112)">
+    <path d="M-32 426h428" stroke="#ffd400" stroke-opacity=".35"/>
+    <path d="M0 0h340v340H0z" fill="#0f0f0f" stroke="#282823" stroke-width="2"/>
+    <g transform="translate(31 31)">
+      <rect width="82" height="82" rx="15" fill="#ffd400"/>
+      <circle cx="41" cy="37" r="19" fill="none" stroke="#080808" stroke-width="4"/>
+      <path d="M41 14v46M18 37h46" stroke="#080808" stroke-width="4" stroke-linecap="round"/>
+      <rect x="98" width="82" height="82" rx="15" fill="#181818" stroke="#55554e"/>
+      <path d="M120 51V28l19-11 19 11v23l-19 11-19-11zm0-23 19 11 19-11" fill="none" stroke="#ffd400" stroke-width="3.5"/>
+      <rect x="196" width="82" height="82" rx="15" fill="#181818" stroke="#55554e"/>
+      <path d="M218 26h38v22h-38zm8 22v13h38V39h-8" fill="none" stroke="#ffd400" stroke-width="3.5"/>
+      <rect y="98" width="82" height="82" rx="15" fill="#181818" stroke="#55554e"/>
+      <path d="M22 139h38M41 120v38" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+      <rect x="98" y="98" width="82" height="82" rx="15" fill="#ffd400"/>
+      <path d="M122 140h34m-17-17v34" stroke="#080808" stroke-width="5" stroke-linecap="round"/>
+      <rect x="196" y="98" width="82" height="82" rx="15" fill="#181818" stroke="#55554e"/>
+      <path d="M219 125h37v28h-37z" fill="none" stroke="#ffffff" stroke-width="4"/>
+      <rect y="196" width="82" height="82" rx="15" fill="#181818" stroke="#55554e"/>
+      <path d="M23 237h36m-18-18v36" stroke="#ffd400" stroke-width="4" stroke-linecap="round"/>
+      <rect x="98" y="196" width="82" height="82" rx="15" fill="#181818" stroke="#55554e"/>
+      <path d="M119 238h40m-20-20v40" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+      <rect x="196" y="196" width="82" height="82" rx="15" fill="#ffd400"/>
+      <path d="M217 238h40m-20-20v40" stroke="#080808" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <text x="170" y="385" text-anchor="middle" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="4">MODEL FASTER</text>
+  </g>
+</svg>
