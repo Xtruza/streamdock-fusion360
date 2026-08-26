@@ -1,0 +1,12 @@
+{
+  "name": "@xtruza/streamdock-fusion360-plugin",
+  "version": "0.1.0",
+  "author": "Xtruza",
+  "main": "index.js",
+  "description": "StreamDock controls for Autodesk Fusion",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
